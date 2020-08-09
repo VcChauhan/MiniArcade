@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="stone.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-danger">
+    <a class="navbar-brand" href="index.html">MiniArcade</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Stone.html">RPS <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="simon.html">Simon</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Play
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="Game/stone.html">RPS</a>
+            <a class="dropdown-item" href="Game/SimonGame/SimonIndex.html">Simon</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Coming Soon</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Up</button>
+      </form>
+    </div>
+  </nav>
+
+<div class="container">
+  <h1 >Stone Paper Scissors</h1>
+  <h2 >Stone Paper Scissor</h2>
+  <h5>Arcade.Player Vs Computer.</h5>
+  <p>Stone paper scissors( Rock paper scissors ) is a hand game usually played between two people, in which each player simultaneously forms one of three shapes
+     with an outstretched hand.</p>
+</div>
+
+                <!-- Card image -->
+<section id="features">
+  <div class="row">
+  <div class="feature-box col-lg-4">
+    <img src="images/rock.jpg" alt="">
+    <h1 style="margin-top:90px;">Stone</h1>
+    <p>Shape of "rock" is a closed fist</p>
+  </div>
+
+    <div class="feature-box col-lg-4">
+      <img src="images/paper.jpg" alt="">
+      <h1 style="margin-top:30px;">Paper</h1>
+      <p>Shape of "paper" is a flat hand</p>
+    </div>
+
+      <div class="feature-box col-lg-4">
+        <img src="images/Scissor.jpg" alt="">
+        <h1>Scissor</h1>
+        <p>Shape of "scissor" is a fist with the index finger and middle finger extended, forming a V</p>
+      </div>
+
+  </div>
+</section>
+
+
+                <!-- Wallpaper carousel -->
+
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="s1.png" alt="Stone paper Scissor" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="s2.jpg" alt="Stone paper Scissor" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="s3.png" alt="Stone paper Scissor" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+                          <!-- Rules -->
+<div class="container bottom">
+  <h1>Knowledge</h1>
+  <ul>
+    <li>Stone has higher weightage than Scissor But stone has lower weightage than paper </li>
+    <p>Stone has higher weightage than Scissor As Stone can destroy Scissor . But stone has lower weightage than paper because paper can hold the Stone.</p>
+    <li>Scissor has higher weightage than Paper but lower than Stone.<br></li>
+    <p>Paper can be cut through Scissor so Scissor has higher weightage than paper and lower than stone because scissor can be destroyed with stone</p>
+    <li>Paper has higher weightage than Stone but lower than Scissor</li>
+    <p>Paper can hold stone so it has higher weightage and in case of Scissor , paper can be cuted with scissor that's why paper has lower weightage than Scissor.</p>
+  </ul>
+
+  <h1>Point's Awarded</h1>
+  <ul>
+    <li>1 point will be awarded in each case <ul>
+      <li>Stone > Scissor</li>
+      <li>Scissor > Paper</li>
+      <li>Paper > Stone</li>
+    </ul></li>
+  </ul>
+
+<a href="game/stone.html"><button type="button" class="btn btn-danger btn-lg btn-block">Let's Play</button></a>
+
+
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="stone.css">
+    <title></title>
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">MiniArcade</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="../simon.html">Simon</a></li>
+            <li><a href="../Stone.html">RPS</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">PvP<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="SimonGame/index.html">Simon</a></li>
+                <li><a href="#">Coming Soon</a></li>
+              </ul>
+            </li>
+            <li class="dropdown active">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">PvC<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="stone.html">Stone-Paper-Scissor</a></li>
+                <li class="disabled"><a href="#">Odd-Even</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="disabled"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li  class="disabled"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h1 id="heading">Stone Paper  Scissor</h1>
+    <h2 id="name">Enter Your Name <input type="text" id="username" name="" value=""></h2>
+    <button type="button" id="btnNname" name="button">Submit</button>
+
+<section id="features">
+  <h2 id="showname"></h2>
+<div class="row">
+<div class="feature-box col-md-4">
+<img src="img1.jpg" alt=""><br>
+<button type="button" class="btn btn-primary option" id="Stone" name="button">Stone</button>
+</div>
+
+<div class="feature-box col-md-4">
+<img src="img2.jpg" alt=""><br>
+<button type="button" class="btn btn-primary option" id="Paper" name="button">Paper</button>
+</div>
+
+<div class="feature-box col-md-4">
+<img src="img3.jpg" alt=""><br>
+<button type="button" class="btn btn-primary option" id="Scissor" name="button">Scissor</button>
+</div>
+
+              <!-- COMPUTER GENERATED -->
+<section id="computer">
+
+  <div class="row">
+    <div class="col-lg-6 computer-box">
+      <div style="color:white;">
+        <h1>Computer</h1>
+
+      </div>
+      <img src="s1.png" id="computerImage" align="left" alt="">
+
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="stone.js" charset="utf-8"></script>
+  </body>
+</html>

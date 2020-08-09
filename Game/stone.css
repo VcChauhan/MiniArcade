@@ -1,0 +1,61 @@
+body{
+  background-color: #D7CFCE ;
+  text-align: center;
+}
+h1{
+margin-top: 40px;
+color:#C13A1D  ;
+font-family: cursive;
+font-weight: bolder;
+}
+h2{
+  color: #B1C013;
+}
+
+/* Card-images */
+#features{
+padding: 7% 15%;
+margin-bottom: 100px;
+}
+.feature-box{
+color: red;
+text-align: center;
+}
+.feature-box img{
+width: 60%;
+border-radius: 100%;
+}
+#features .btn{
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+/*
+COMPUTER IMAGE */
+#computer{
+    padding: 7% 15%;
+}
+.computer-box img{
+  width: 60%;
+  border-radius: 10%;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+.mystyle {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
+
+/*
+FOOTER */
+
+#footer{
+  margin: 0px;
+  background-color: black
+}

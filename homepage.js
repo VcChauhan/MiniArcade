@@ -1,0 +1,14 @@
+$("#menu").click(function(){
+  $(".btn-option").fadeIn(500);
+  $(".main").hide();
+  $("#menu").hide();
+  $("#menu1").show();
+  $(".dashed-box").hide();
+});
+$("#menu1").click(function(){
+  $(".btn-option").hide();
+  $(".main").show();
+  $("#menu").show();
+  $("#menu1").hide();
+  $(".dashed-box").show();
+});

@@ -1,0 +1,125 @@
+Game/SimonGame/SimonIndex.html<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="simon.css">
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light " style="background-color: #e3f2fd;">
+    <a class="navbar-brand" href="index.html">MiniArcade</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="Stone.html">RPS <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link " href="simon.html">Simon</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Play
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="Game/stone.html">RPS</a>
+            <a class="dropdown-item" href="Game/SimonGame/SimonIndex.html">Simon</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Coming Soon</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Up</button>
+      </form>
+    </div>
+  </nav>
+
+
+
+  <h1>Simon</h1>
+  <h6>MiniArcade <sub>..</sub> Simon</h6>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/simon1.gif" alt="Simon Game" class="c-img">
+      <div class="carousel-caption" style="color:yellow">
+        <h3>Simple Game!!!</h3>
+        <a  class="playBtn" href="Game/SimonGame/SimonIndex.html" ><button type="button" class="btn btn-lg btn-warning" name="button">Let's Play</button></a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/simon2.jfif" class="c-img" alt="Simon Game">
+      <div class="carousel-caption">
+        <h3>Best In Class</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/simon4.jfif" class="c-img" alt="Simon Game">
+      <div class="carousel-caption">
+        <h3>Woth It</h3>
+
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+
+<div class="team-members">
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="images/beat.jfif" class="mem-image" alt="">
+       <h2>Can You Beat Simon!!!</h2>
+       <p id="mp" >This simple game is a good test of your memory and you will beat anyone you play with. ... If you just try
+          to repeat the colors over and over, you will only last so long because you will get confused if it was red, red, green or green, red, green.</p>
+          <a  class="playBtn" href="Game/SimonGame/SimonIndex.html"  ><button type="button" style="margin-top:50px;" class="btn btn-lg btn-warning" name="button">Play</button></a>
+
+    </div>
+
+      <div class="col-lg-4">
+        <img src="images/brain.jpg" class="mem-image" alt="">
+         <h2>Increase Memory!!!!</h2>
+         <p id="mp" >Simon or Bop It – Children can increase their sequential processing, short-term memory, attention and visual processing with these sound and light mimicking games.
+           Simple but not easy, Simon can strengthen auditory processing, processing speed, visual processing and attention.</p>
+           <a  class="playBtn" href="https://en.wikipedia.org/wiki/Simon_(game)" ><button type="button" class="btn btn-lg btn-warning" name="button">More</button></a>
+      </div>
+
+        <div class="col-lg-4">
+          <img src="images/purchase.png" class="mem-image" alt="">
+           <h2>It's Cost!!</h2>
+           <p id="mp" >Simon sold for $25–about $92 in today's dollars and can  become a phenomenon holiday season partner for you.</p>
+           <a href="https://www.amazon.in/Hasbro-B7962-Simon-Game/dp/B01ALHAN7Q"><button type="button" class="btn btn-lg btn-warning" name="button" style="margin-top:190px;">Buy</button></a>
+        </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
